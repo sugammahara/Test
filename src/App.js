@@ -7,6 +7,7 @@ function Home() {
   const [messageIndex, setMessageIndex] = useState(0);
   const [buttonFontSize, setButtonFontSize] = useState(16); 
   const messages = [
+    "No",
     "Are you sure?",
     "Really sure??",
     "Are you positive?",
@@ -27,7 +28,7 @@ function Home() {
   return (
     <div>
       <div className="container">
-        <h1>Will you be my Valentine? Satya</h1>
+        <h1>Will you be my Valentine? </h1>
         <div className="buttons">
           <Link to="/yes">
             <button 
