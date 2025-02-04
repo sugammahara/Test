@@ -28,7 +28,7 @@ function Home() {
   return (
     <div>
       <div className="container">
-        <h1>Will you be my Valentine? </h1>
+        <h1>Will you be my Valentine kriti ❤️? </h1>
         <div className="buttons">
           <Link to="/yes">
             <button 
